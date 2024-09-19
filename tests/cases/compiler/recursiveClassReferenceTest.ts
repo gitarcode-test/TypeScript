@@ -36,10 +36,7 @@ module Sample.Actions.Thing.Find {
 		
 		public getId() { return "yo"; }
 		
-		public run(Thing:Sample.Thing.ICodeThing):boolean {
-
-			return true;
-		}
+		public run(Thing:Sample.Thing.ICodeThing):boolean { return true; }
 	}
 }
 
